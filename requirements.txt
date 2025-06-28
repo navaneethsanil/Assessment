@@ -1,0 +1,16 @@
+langchain
+langchain_community
+langchain_core
+langchain_openai
+langchain_google_genai
+langgraph
+sqlalchemy
+pymysql
+
+fastapi
+uvicorn[standard]
+python-jose[cryptography]
+pydantic
+pydantic_settings
+
+python-dotenv
