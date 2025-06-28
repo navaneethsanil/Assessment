@@ -61,7 +61,7 @@ def login(email: str, password: str):
             return {
                 "is_authenticated": False,
                 "access_token": "",
-                "message": "Access denied!"
+                "message": "Access Denied!: Only authorized depot users are permitted to log in."
             }
     else:
         return {
